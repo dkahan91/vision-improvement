@@ -1,0 +1,62 @@
+h1{
+  color:pink;
+}
+body{
+  /*background-color: turquoise;*/
+  background-image: url("..//Images/sea.jpg");
+}
+
+header{
+  background-color:#2BABD6;
+  margin:0;
+}
+
+nav li{
+  list-style: none;
+  margin: 10px auto;
+}
+
+li:hover{
+  color: pink;
+}
+
+li, h1, p, h3 {
+  color: white;
+}
+
+li{
+  display: inline-block;
+  width: 120px;
+  font-size: 18px;
+  padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    line-height: 25px;
+}
+
+nav a:hover{
+  background-color: purple;
+}
+
+.exercise-box, .regular-box{
+  text-align: center;
+  background-color:#2BABD6;
+  width: 400px;
+  margin:20px auto;
+  padding: 50px;
+}
+
+.intro-text{
+  text-align: left;
+  /*background-color:#2BABD6;*/
+  width: 400px;
+  margin:20px auto;
+  padding: 50px;
+}
+
+main{
+  width: 400px;
+  margin: auto;
+}
